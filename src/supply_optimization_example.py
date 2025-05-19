@@ -3,7 +3,7 @@ import random
 import os
 term_size = os.get_terminal_size()
 
-from linear_programing import linear_prog
+from linear_program_solver import linear_prog
 
 # The number of products from each supply node
 supply_capacity = np.array([5000, 2000, 3000, 4000]) 
